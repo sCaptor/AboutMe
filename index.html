@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="styles.css"/>
+	<title>Login</title>
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<a href="index.html" class="logo">Login</a>
+			<ul class="nav-list">
+				<li><a href="#section1">Inicio</a></li>
+				<li><a href="#section2">Acerca de</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section id="section1">
+		<div class="login-container">
+			<form id="loginForm" action="/login" method="post">
+				<label for="username">Usuario:</label>
+				<input type="text" id="username" name="username" required/>
+				<label for="password">Contraseña:</label>
+				<input type="password" id="password" name="password" required/>
+				<button type="submit">Iniciar Sesión</button>
+			</form>
+		</div>
+	</section>
+
+	<section id="section2"></section>
+	<footer><p>Contacto: micorreoelectronico@mail.com</p></footer>
+
+</body>
+</html>
